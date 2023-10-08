@@ -11,21 +11,27 @@ html {
 }
 
 hr {
-    margin: 20px auto;
+    margin: 10px auto;
     color: #F05F44;
     border: 2px solid #F05F44;
-    max-width: 100px;
+    max-width: 340px;
     opacity: 1;  
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
   font-weight: 700;
   border-radius: 300;
   text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 
 .btn-xl {
-  padding: 1rem 2 rem;
+  padding: 2px 2px;
+  margin: 20px;
 }
 
 .btn-primary {
@@ -43,5 +49,6 @@ hr {
 
 h1 {
   font-family: italics;
+  margin: 10px;
 }
 
